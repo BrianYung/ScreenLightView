@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScreenLightView">
+        <attr name="solidcolor" format="color"></attr>
+        <attr name="unsolidcolor" format="color"></attr>
+
+    </declare-styleable>
+    <attr name="ScreenLightViewStyle" format="reference"></attr>
+
+    <style name="ScreenLightViewDefault">
+        <item name="solidcolor">#fff</item>
+        <item name="unsolidcolor">#55ffffff</item>
+    </style>
+</resources>
